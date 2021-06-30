@@ -8,7 +8,7 @@ class Solution {
         
         Set<String> set = new HashSet();
         for (int i = 1; i < (n/2+1); i++) {
-            List<String> l1 = generateParenåçthesis(i);
+            List<String> l1 = generateParenthesis(i);
             List<String> l2 = generateParenthesis(n-i);
             
             if (i == 1) {
